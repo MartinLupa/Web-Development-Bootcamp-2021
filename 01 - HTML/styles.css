@@ -1,0 +1,32 @@
+body {
+  background-color: #f4f9f9;
+}
+
+hr {
+  border-style: none;
+  border-top-style: groove;
+  border-color: #aaaaaa;
+  border-width: 5px;
+  width: 70%
+}
+p {
+  text-align: left;
+  text-align: justify;
+  font-weight: normal;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: #007580;
+}
+
+h3 {
+  color: #007580;
+}
+
+h4 {
+  color: #007580;
+}
