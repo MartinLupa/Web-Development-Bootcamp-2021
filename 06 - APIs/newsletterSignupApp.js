@@ -1,3 +1,5 @@
+//Newsletter signup app using external APIs (Mailchimp). It allows to generate personalized emails to subscribers.
+
 const express = require("express");
 const bodyParser = require("body-parser"); //Allows to pass the information that we get sent from the post request.
 const request = require("request");
