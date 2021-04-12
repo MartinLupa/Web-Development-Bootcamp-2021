@@ -1,3 +1,5 @@
+//Weather app using external API.
+
 const express = require("express");
 const https = require("https");
 const bodyParser = require("body-parser"); //Allows to receive the text that the users type into the input.
