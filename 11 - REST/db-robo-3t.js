@@ -1,3 +1,7 @@
+//Database using Robo 3T and MongoDB.
+//Server Set up.
+//GET, POST, DELETE requests.
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
