@@ -1,3 +1,5 @@
+//ECRYPTION MADE USING MONGOOSE ENCRYPTION.
+
 //jshint esversion:6
 require("dotenv").config(); //dotenv is suggested to be used at the very top of the app.
 const express = require("express");
