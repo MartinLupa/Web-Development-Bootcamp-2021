@@ -14,6 +14,7 @@ function App() {
   const [headingText, setHeading] = useState("");
   function handleClick() {
     setHeading(name);
+    event.preventDefault();
   }
 
   return (
@@ -37,3 +38,4 @@ export default App;
 
 //When a button is inside a <form> component, name will  be rendered but automatically refreshed and disappear.
 //This is the default behaviour of form components in HTML. They referesh in order to submit, make a pot/get request and refresh the page.
+////event.preventDefault() prevents this behaviour to happen.
